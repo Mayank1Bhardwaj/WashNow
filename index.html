@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body ></body>
+    <header>
+        <img  class="logo" src="/logo4-removebg-preview.png" alt="logo">
+       
+        <h1>Fest X</h1>
+        <div class="header-buttons">
+           
+            <button id="home" onclick="location.href ='index.html'" > Home</button>
+            <button id="contact" onclick="location.href='cont.html'">Contact</button>
+
+            <button id="login-btn">Login</button>
+            
+        </div>
+    </header>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <h2>Login</h2>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="loginUser()">Login</button>
+            <p>Don't have an account? <span id="create-account-btn">Create one</span></p>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="register-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-register-modal" class="close">&times;</span>
+            <h2>Register</h2>
+            <input type="text" id="new-username" placeholder="Username">
+            <input type="password" id="new-password" placeholder="Password">
+            <button onclick="registerUser()">Register</button>
+        </div>
+    </div>
+
+    <!-- Service Selection with Cards -->
+    <!-- Service Selection with Cards -->
+<div class="services">
+    <h2>Welcome to FestX
+    </h2>
+    <h4>Experience the ultimate college fest with exciting events, competitions, and more!</h4>
+    <div class="service-card">
+        <h3>Explore Event</h3>
+        <!-- <p>Professional laundry service with folding. Perfect for daily wear clothes.</p>
+        <h4> Price - 80₹/KG </h4 > -->
+        <button onclick="schedulePickup('Wash & Fold')">Select</button>
+    <!-- </div>
+    <div class="service-card">
+        <h3>Dry Cleaning</h3>
+        <p>Premium dry cleaning for delicate and expensive clothing items.</p>
+        <h4> Price - 160₹/KG </h4 >
+        <button onclick="schedulePickup('Dry Cleaning')">Select</button>
+    </div>
+    <div class="service-card">
+        <h3>Ironing</h3>
+        <p>Get your clothes pressed and wrinkle-free. Ideal for formal wear.</p>
+        <h4> Price - 60₹/KG </h4 >
+        <button onclick="schedulePickup('Ironing')">Select</button>
+    </div>
+</div> -->
+
+<!-- Read More Button
+<div class="read-more-container">
+    <button id="read-more-btn" onclick="toggleTable()">Read More</button>
+</div> -->
+
+<!-- Schedule Pickup and Hidden Table
+<div class="schedule" style="display:none;">
+    <h2>Schedule Your Pickup</h2>
+    <input type="date" id="pickup-date" placeholder="Pickup Date">
+    <input type="text" id="pickup-location" placeholder="Pickup Location">
+    <button onclick="submitPickup()">Confirm Pickup</button>
+</div> -->
+<!-- <!-- 
+Table (Initially hidden)
+<div id="table-section" class="hidden-table">
+    <h2 style="align-items: center;">Full Range Of Laundry Services</h2>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>Wash & Fold</th>
+                <!-- <th>Dry Cleaning</th>
+                <th>Ironing</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Upto 25% Off</td>
+                <td>Upto 25% Off</td>
+                <td>No Discount</td>
+            </tr>
+            <tr>
+                <td>Wash</td>
+                <td>Wash</td>
+                <td>Ironing</td>
+            </tr>
+            <tr>
+                <td>Dry</td>
+                <td>Dry</td>
+                <td>Dry</td>
+            </tr>
+            <tr>
+                <td>Multi Packing</td>
+                <td>Multi Packing</td>
+                <td>Multi Packing</td>
+            </tr>
+            <tr>
+                <td>48 Hrs Delivery</td>
+                <td>48 Hrs Delivery</td>
+                <td>48 Hrs Delivery</td>
+            </tr>
+        </tbody>
+    </table>  -->
+
+    <!-- Wrap the content below the table in a new div -->
+<!-- <div id="below-table">
+    <p id="ct" style="color: antiquewhite;">
+    We offer a complete range of laundry services, whether it’s for your daily home wear, office attire, or even woollen garments.<br>
+
+    Our laundry services are categorized into:
+    <br>   
+    Wash & Fold<br>
+    Wash & Steam Iron<br>
+    Premium Laundry<br>
+    Select any service based on your needs.<br> Enjoy free home pickup and delivery, with express options available for your convenience.
+    
+    <!-- Image that needs a background change -->
+   x -->
+    > -->
+    <!-- <div class="slideshow-container" id="target-image">
+        <div class="mySlides fade">
+          <img src="https://greenercleaner.net/wp-content/uploads/2023/12/217067478_m_normal_none-1200x780.jpg" style="width:500px; height:auto;">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtuKgcBd5m-80JtirEvVh6OBE_GFGs7UbL5w&s" style="width:500px; height:auto;">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlVRD3FBvrwO4Q8DDV37P2LYhMqeKEH-LqDw&s" style="width:500px; height:auto;">
+        </div>
+      </div> -->
+      
+    </div>
+    
+    </p>
+</div>
+
+
+    
+</div>
+
+ -->
+
+
+
+
+
+
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 WashNow. All Rights Reserved.</p>
+        <p>Follow us on: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </p>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
